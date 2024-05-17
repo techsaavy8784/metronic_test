@@ -15,21 +15,21 @@ const IndexPage = () => {
       <Grid container spacing={4}>
         <Grid item lg={8} sm={12}>
           <Category />
-          <Stack >
+          <OrderTable />
+          <Stack>
             <RecentCustomers />
           </Stack>
-          <OrderTable />
           <AuthorEarnings />
-        </Grid >
+        </Grid>
         <Grid item lg={4} gap={3} sm={12}>
           <Stack>
             <SalesProgress />
           </Stack>
           <Trends />
           <Activities />
-        </Grid >
+        </Grid>
         <Footer />
-      </Grid >
+      </Grid>
     </>
   )
 }
